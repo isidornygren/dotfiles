@@ -1,0 +1,16 @@
+[2021-10-16 18:25:20.182] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-10-16 18:25:32.466] [sharedprocess] [info] Installing extension: dbaeumer.vscode-eslint
+[2021-10-16 18:25:33.183] [sharedprocess] [info] Downloaded extension: dbaeumer.vscode-eslint /home/isidor/.config/Code - OSS/CachedExtensionVSIXs/dbaeumer.vscode-eslint-2.1.20
+[2021-10-16 18:25:33.414] [sharedprocess] [info] Extracted extension to /home/isidor/.vscode-oss/extensions/.de652742-e5c7-4a49-9d28-42ad093f2985: dbaeumer.vscode-eslint
+[2021-10-16 18:25:33.426] [sharedprocess] [info] Renamed to /home/isidor/.vscode-oss/extensions/dbaeumer.vscode-eslint-2.1.20
+[2021-10-16 18:25:33.431] [sharedprocess] [info] Extracting completed. dbaeumer.vscode-eslint
+[2021-10-16 18:25:33.436] [sharedprocess] [info] Extension installed successfully: dbaeumer.vscode-eslint
+[2021-10-16 18:25:39.537] [sharedprocess] [info] Installing extension: orta.vscode-jest
+[2021-10-16 18:25:40.168] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-10-16 18:25:40.168] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-10-16 18:25:41.199] [sharedprocess] [info] Downloaded extension: orta.vscode-jest /home/isidor/.config/Code - OSS/CachedExtensionVSIXs/orta.vscode-jest-4.0.0-alpha.1
+[2021-10-16 18:25:41.347] [sharedprocess] [info] Extracted extension to /home/isidor/.vscode-oss/extensions/.39aff45d-485b-4f3a-8b32-b55004032563: orta.vscode-jest
+[2021-10-16 18:25:41.360] [sharedprocess] [info] Renamed to /home/isidor/.vscode-oss/extensions/orta.vscode-jest-4.0.0-alpha.1
+[2021-10-16 18:25:41.363] [sharedprocess] [info] Extracting completed. orta.vscode-jest
+[2021-10-16 18:25:41.366] [sharedprocess] [info] Extension installed successfully: orta.vscode-jest
+[2021-10-16 18:25:50.182] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.

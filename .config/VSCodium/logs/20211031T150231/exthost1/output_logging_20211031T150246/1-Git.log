@@ -1,0 +1,250 @@
+Validating found git in: git
+Using git 2.33.1 from git
+> git rev-parse --git-dir
+Open repository: /home/isidor/Projects/ts-test
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :example/index.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/example/index.js
+> git check-ignore -v -z --stdin
+> git show --textconv :dist/package.json
+> git ls-files --stage -- /home/isidor/Projects/ts-test/dist/package.json
+> git show --textconv :package.json
+> git ls-files --stage -- /home/isidor/Projects/ts-test/package.json
+> git cat-file -s bb0d6e8af87296cf8ab7efb5c10a9a86ddfa75c8
+> git show --textconv :example/index.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/example/index.js
+> git show --textconv :example/package.json
+> git ls-files --stage -- /home/isidor/Projects/ts-test/example/package.json
+> git check-ignore -v -z --stdin
+> git show --textconv :src/index.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/index.ts
+> git cat-file -s 6927d3a3ac6534dcac13bae9c4292a85fc3c29e3
+> git show --textconv :src/test.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/test.ts
+> git cat-file -s 27fd647b2b34c995111d7f9d2ccc636c983e3977
+> git show --textconv :src/index.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/index.ts
+> git cat-file -s 6927d3a3ac6534dcac13bae9c4292a85fc3c29e3
+> git show --textconv :src/test.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/test.ts
+> git cat-file -s 27fd647b2b34c995111d7f9d2ccc636c983e3977
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :dist-test/src/index.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/dist-test/src/index.js
+> git check-ignore -v -z --stdin
+> git show --textconv :dist/src/index.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/dist/src/index.js
+> git show --textconv :dist/src/test.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/dist/src/test.js
+> git show --textconv :dist/src/test.d.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/dist/src/test.d.ts
+> git show --textconv :dist/src/test.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/dist/src/test.js
+> git show --textconv :src/test.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/test.ts
+> git cat-file -s 27fd647b2b34c995111d7f9d2ccc636c983e3977
+> git show --textconv :example/index.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/example/index.js
+> git show --textconv :src/test.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/test.ts
+> git cat-file -s 27fd647b2b34c995111d7f9d2ccc636c983e3977
+> git show --textconv :src/index.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/index.ts
+> git cat-file -s 6927d3a3ac6534dcac13bae9c4292a85fc3c29e3
+> git show --textconv :.eslintrc.json
+> git ls-files --stage -- /home/isidor/Projects/ts-test/.eslintrc.json
+> git cat-file -s d3fe5bc7ce001a740f479be7509ebffef418611b
+> git show --textconv :src/test.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/test.ts
+> git cat-file -s 27fd647b2b34c995111d7f9d2ccc636c983e3977
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :example/index.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/example/index.js
+> git show --textconv :src/test.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/test.ts
+> git cat-file -s 27fd647b2b34c995111d7f9d2ccc636c983e3977
+> git show --textconv :README.md
+> git ls-files --stage -- /home/isidor/Projects/ts-test/README.md
+> git cat-file -s fe5a53e1e5949937b86d2175c1c873f31c13d5d7
+> git show --textconv :example/index.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/example/index.js
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :example/__tests__/some.test.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/example/__tests__/some.test.js
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/isidor/Projects/ts-test/src/test.ts
+> git show --textconv :src/test.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/test.ts
+> git cat-file -s 27fd647b2b34c995111d7f9d2ccc636c983e3977
+> git show --textconv :README.md
+> git ls-files --stage -- /home/isidor/Projects/ts-test/README.md
+> git cat-file -s fe5a53e1e5949937b86d2175c1c873f31c13d5d7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :src/__tests__/test.test.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/__tests__/test.test.ts
+> git cat-file -s 9067bc0aed93bef813235543ca4648a0745e274b
+> git show --textconv :example/__tests__/some.test.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/example/__tests__/some.test.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/__tests__/test.test.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/__tests__/test.test.ts
+> git cat-file -s 9067bc0aed93bef813235543ca4648a0745e274b
+> git show --textconv :example/__tests__/some.test.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/example/__tests__/some.test.js
+> git show --textconv :src/__tests__/test.test.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/__tests__/test.test.ts
+> git cat-file -s 9067bc0aed93bef813235543ca4648a0745e274b
+> git show --textconv :example/__tests__/some.test.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/example/__tests__/some.test.js
+> git show --textconv :example/__tests__/some.test.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/example/__tests__/some.test.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :example/index.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/example/index.js
+> git show --textconv :src/index.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/index.ts
+> git cat-file -s 6927d3a3ac6534dcac13bae9c4292a85fc3c29e3
+> git show --textconv :src/test.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-test/src/test.ts
+> git cat-file -s 27fd647b2b34c995111d7f9d2ccc636c983e3977
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/isidor/Projects/ts-test/example/__tests__/some.test.js
+> git show --textconv :example/__tests__/some.test.js
+> git ls-files --stage -- /home/isidor/Projects/ts-test/example/__tests__/some.test.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

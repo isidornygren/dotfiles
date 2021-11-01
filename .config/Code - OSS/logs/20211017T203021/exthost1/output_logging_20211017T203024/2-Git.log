@@ -1,0 +1,15 @@
+Validating found git in: git
+Using git 2.33.0 from git
+> git rev-parse --git-dir
+Open repository: /home/isidor/Projects/jest
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/isidor/Projects/jest/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :packages/jest-runtime/src/index.ts
+> git ls-files --stage -- /home/isidor/Projects/jest/packages/jest-runtime/src/index.ts
+> git cat-file -s 8640b45ea405aa465a892189a62712c1443a7115
+> git check-ignore -v -z --stdin

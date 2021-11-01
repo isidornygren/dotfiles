@@ -1,0 +1,31 @@
+Validating found git in: git
+Using git 2.33.0 from git
+> git rev-parse --git-dir
+Open repository: /home/isidor/Projects/ts-node
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/isidor/Projects/ts-node/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/bin.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-node/src/bin.ts
+> git cat-file -s 95c7f9320db348ba2d7a6b040bc4800e6fd0641d
+> git check-ignore -v -z --stdin
+> git show --textconv :website/docs/options-table.md
+> git ls-files --stage -- /home/isidor/Projects/ts-node/website/docs/options-table.md
+> git cat-file -s 287da82dce2e99f14a0d06233f8afef32fb20834
+> git check-ignore -v -z --stdin
+> git show --textconv :src/bin.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-node/src/bin.ts
+> git cat-file -s 95c7f9320db348ba2d7a6b040bc4800e6fd0641d
+> git show --textconv :package.json
+> git ls-files --stage -- /home/isidor/Projects/ts-node/package.json
+> git cat-file -s 22aea1e52e0b7f7a1bfac437065f52ea310b3c7e
+> git show --textconv :src/bin.ts
+> git ls-files --stage -- /home/isidor/Projects/ts-node/src/bin.ts
+> git cat-file -s 95c7f9320db348ba2d7a6b040bc4800e6fd0641d

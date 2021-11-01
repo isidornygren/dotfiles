@@ -1,0 +1,87 @@
+[2021-10-16 18:47:32.431] [exthost] [info] extension host started
+[2021-10-16 18:47:32.431] [exthost] [info] Skipping acquiring lock for /home/isidor/.config/Code - OSS/User/workspaceStorage/446b4b307ddb8924eaa8978fd6c4922c.
+[2021-10-16 18:47:32.555] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-10-16 18:47:32.555] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/typescript-language-features/dist/extension
+[2021-10-16 18:47:32.598] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-10-16 18:47:32.598] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-10-16 18:47:32.600] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-10-16 18:47:32.600] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-10-16 18:47:32.613] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2021-10-16 18:47:32.613] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/npm/dist/npmMain
+[2021-10-16 18:47:32.620] [exthost] [info] ExtensionService#_doActivateExtension Orta.vscode-jest, startup: true, activationEvent: 'workspaceContains:node_modules/.bin/jest'
+[2021-10-16 18:47:32.620] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/isidor/.vscode-oss/extensions/orta.vscode-jest-4.0.0-alpha.1/out/extension
+[2021-10-16 18:47:33.034] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-10-16 18:47:33.034] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-10-16 18:47:33.037] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-10-16 18:47:33.059] [exthost] [error] Activating extension vscode.npm failed due to an error:
+[2021-10-16 18:47:33.059] [exthost] [error] Canceled: Canceled
+	at Object.n [as canceled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:9064
+	at Array.forEach (<anonymous>)
+	at i.dispose (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:9012)
+	at b.terminate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:682)
+	at o (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:32535)
+	at Socket.<anonymous> (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:30185)
+	at Socket.emit (events.js:327:22)
+	at Pipe.<anonymous> (net.js:673:12)
+[2021-10-16 18:47:33.060] [exthost] [error] Activating extension vscode.github failed due to an error:
+[2021-10-16 18:47:33.060] [exthost] [error] Canceled: Canceled
+	at Object.n [as canceled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:9064
+	at Array.forEach (<anonymous>)
+	at i.dispose (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:9012)
+	at b.terminate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:682)
+	at o (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:32535)
+	at Socket.<anonymous> (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:30185)
+	at Socket.emit (events.js:327:22)
+	at Pipe.<anonymous> (net.js:673:12)
+[2021-10-16 18:47:33.060] [exthost] [info] eager extensions activated
+[2021-10-16 18:47:33.060] [exthost] [error] Activating extension vscode.emmet failed due to an error:
+[2021-10-16 18:47:33.060] [exthost] [error] Canceled: Canceled
+	at Object.n [as canceled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at i._remoteCall (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:13876)
+	at Proxy.R.<computed>.$.charCodeAt.R.<computed> (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:10271)
+	at v._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11651)
+	at Object.actualActivateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9236)
+	at a._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:88419)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:88101
+	at Array.map (<anonymous>)
+	at a._activateExtensions (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:88089)
+	at activateById (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:85687)
+	at v._activateById (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:10238)
+	at v._activateOneStartupFinished (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:15256)
+	at v._activateAllStartupFinished (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:15627)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:16120
+[2021-10-16 18:47:33.060] [exthost] [error] Activating extension vscode.merge-conflict failed due to an error:
+[2021-10-16 18:47:33.060] [exthost] [error] Canceled: Canceled
+	at Object.n [as canceled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at i._remoteCall (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:13876)
+	at Proxy.R.<computed>.$.charCodeAt.R.<computed> (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:10271)
+	at v._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11651)
+	at Object.actualActivateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9236)
+	at a._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:88419)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:88101
+	at Array.map (<anonymous>)
+	at a._activateExtensions (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:88089)
+	at activateById (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:85687)
+	at v._activateById (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:10238)
+	at v._activateOneStartupFinished (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:15256)
+	at v._activateAllStartupFinished (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:15627)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:16120
+[2021-10-16 18:47:33.060] [exthost] [error] Activating extension dbaeumer.vscode-eslint failed due to an error:
+[2021-10-16 18:47:33.060] [exthost] [error] Canceled: Canceled
+	at Object.n [as canceled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at i._remoteCall (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:13876)
+	at Proxy.R.<computed>.$.charCodeAt.R.<computed> (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:10271)
+	at v._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11651)
+	at Object.actualActivateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9236)
+	at a._activateExtension (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:88419)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:88101
+	at Array.map (<anonymous>)
+	at a._activateExtensions (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:88089)
+	at activateById (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:85687)
+	at v._activateById (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:10238)
+	at v._activateOneStartupFinished (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:15256)
+	at v._activateAllStartupFinished (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:15627)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:16120
+[2021-10-16 18:47:34.058] [exthost] [info] exiting with code 0

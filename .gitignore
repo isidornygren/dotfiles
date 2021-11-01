@@ -1,0 +1,12 @@
+# Ignore everything
+/*
+
+# Whitelist
+!.gitignore
+
+!.config/
+.config/1Password/*
+!.scripts/
+!.bashrc
+!.bash_profile
+!.vimrc

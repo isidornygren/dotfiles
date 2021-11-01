@@ -1,0 +1,58 @@
+[2021-10-17 20:30:23.925] [exthost] [info] extension host started
+[2021-10-17 20:30:23.925] [exthost] [info] Skipping acquiring lock for /home/isidor/.config/Code - OSS/User/workspaceStorage/ed30f42ceed45095511c892f935af160.
+[2021-10-17 20:30:24.012] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-10-17 20:30:24.012] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/typescript-language-features/dist/extension
+[2021-10-17 20:30:24.060] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-10-17 20:30:24.060] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-10-17 20:30:24.061] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-10-17 20:30:24.061] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-10-17 20:30:24.080] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2021-10-17 20:30:24.080] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/npm/dist/npmMain
+[2021-10-17 20:30:24.087] [exthost] [info] ExtensionService#_doActivateExtension Orta.vscode-jest, startup: true, activationEvent: 'workspaceContains:jest.config.js'
+[2021-10-17 20:30:24.087] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/isidor/.vscode-oss/extensions/orta.vscode-jest-4.0.0-alpha.1/out/extension
+[2021-10-17 20:30:24.721] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-10-17 20:30:24.721] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-10-17 20:30:24.816] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-10-17 20:30:24.816] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-10-17 20:30:24.991] [exthost] [info] eager extensions activated
+[2021-10-17 20:30:25.059] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-17 20:30:25.059] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-10-17 20:30:25.078] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-17 20:30:25.080] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-10-17 20:30:25.082] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-17 20:30:25.082] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/isidor/.vscode-oss/extensions/dbaeumer.vscode-eslint-2.1.20/client/out/extension
+[2021-10-17 20:30:26.133] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-10-17 20:30:26.134] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/configuration-editing/dist/configurationEditingMain
+[2021-10-17 20:30:26.135] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-10-17 20:30:26.135] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-10-17 20:30:26.467] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-10-17 20:30:27.475] [exthost] [info] exiting with code 0
+[2021-10-17 20:30:28.317] [exthost] [info] extension host started
+[2021-10-17 20:30:28.317] [exthost] [info] Skipping acquiring lock for /home/isidor/.config/Code - OSS/User/workspaceStorage/2c0e0bcc59a99ce14edfadd1b1646349.
+[2021-10-17 20:30:28.390] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-10-17 20:30:28.390] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/typescript-language-features/dist/extension
+[2021-10-17 20:30:28.428] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-10-17 20:30:28.429] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-10-17 20:30:28.430] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-10-17 20:30:28.430] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-10-17 20:30:28.447] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2021-10-17 20:30:28.447] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/npm/dist/npmMain
+[2021-10-17 20:30:28.898] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-10-17 20:30:28.898] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-10-17 20:30:28.967] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-10-17 20:30:28.967] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-10-17 20:30:29.154] [exthost] [info] eager extensions activated
+[2021-10-17 20:30:29.201] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-17 20:30:29.201] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-10-17 20:30:29.205] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-17 20:30:29.206] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-10-17 20:30:29.207] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-17 20:30:29.207] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/isidor/.vscode-oss/extensions/dbaeumer.vscode-eslint-2.1.20/client/out/extension
+[2021-10-17 20:30:30.504] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-10-17 20:30:30.504] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/configuration-editing/dist/configurationEditingMain
+[2021-10-17 20:30:30.506] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-10-17 20:30:30.506] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-10-17 20:33:34.700] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-10-17 20:33:34.700] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/extension-editing/dist/extensionEditingMain
+[2021-10-17 20:55:59.455] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-10-17 20:56:00.473] [exthost] [info] exiting with code 0

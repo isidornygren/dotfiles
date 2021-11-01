@@ -1,0 +1,12 @@
+[2021-10-17 10:25:51.829] [renderer1] [info] Starting extension host with pid 1110.
+[2021-10-17 10:25:52.366] [renderer1] [error] [Extension Host] (node:1110) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `electron --trace-deprecation ...` to show where the warning was created)
+[2021-10-17 10:56:28.666] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/vb/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/vb/package.json'
+[2021-10-17 10:56:28.667] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/make/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/make/package.json'
+[2021-10-17 10:56:28.667] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/bat/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/bat/package.json'
+[2021-10-17 10:56:28.667] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/java/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/java/package.json'
+[2021-10-17 10:56:28.668] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/csharp/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/csharp/package.json'
+[2021-10-17 10:56:28.668] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/ruby/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/ruby/package.json'
+[2021-10-17 10:56:28.668] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/javascript/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/javascript/package.json'
+[2021-10-17 10:56:28.668] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/json/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/json/package.json'
+[2021-10-17 10:56:28.668] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/shellscript/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/shellscript/package.json'

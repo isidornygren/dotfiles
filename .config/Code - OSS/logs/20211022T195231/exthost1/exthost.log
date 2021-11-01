@@ -1,0 +1,54 @@
+[2021-10-22 19:52:34.126] [exthost] [info] extension host started
+[2021-10-22 19:52:34.126] [exthost] [info] Skipping acquiring lock for /home/isidor/.config/Code - OSS/User/workspaceStorage/2c0e0bcc59a99ce14edfadd1b1646349.
+[2021-10-22 19:52:34.254] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-10-22 19:52:34.254] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/typescript-language-features/dist/extension
+[2021-10-22 19:52:34.356] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-10-22 19:52:34.356] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-10-22 19:52:34.359] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-10-22 19:52:34.359] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-10-22 19:52:34.379] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2021-10-22 19:52:34.379] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/npm/dist/npmMain
+[2021-10-22 19:52:34.648] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-10-22 19:52:34.648] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-10-22 19:52:34.667] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-10-22 19:52:34.667] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-10-22 19:52:34.776] [exthost] [info] eager extensions activated
+[2021-10-22 19:52:34.789] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-22 19:52:34.789] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-10-22 19:52:34.798] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-22 19:52:34.798] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-10-22 19:52:34.801] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-22 19:52:34.801] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/isidor/.vscode-oss/extensions/dbaeumer.vscode-eslint-2.1.20/client/out/extension
+[2021-10-22 19:52:45.669] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-10-22 19:52:45.669] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/configuration-editing/dist/configurationEditingMain
+[2021-10-22 19:52:45.672] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-10-22 19:52:45.673] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-10-22 20:19:24.605] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-10-22 20:19:24.605] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/extension-editing/dist/extensionEditingMain
+[2021-10-22 20:19:25.517] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2021-10-22 20:19:25.524] [exthost] [error] Canceled: Canceled
+	at b.makeCancelError (/usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:458291)
+	at b.handleFailedRequest (/usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:458142)
+	at /usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:418357
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async s.provideHover (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-10-22 20:22:21.651] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4472
+[2021-10-22 20:23:07.689] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4472
+[2021-10-22 20:24:21.863] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4472
+[2021-10-22 20:24:26.952] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4472
+[2021-10-22 20:24:38.959] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4472
+[2021-10-22 20:24:45.130] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2021-10-22 20:24:45.131] [exthost] [error] Canceled: Canceled
+	at b.makeCancelError (/usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:458291)
+	at b.handleFailedRequest (/usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:458142)
+	at /usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:469344
+	at async X.provideColors (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:186384)
+[2021-10-22 20:24:45.131] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2021-10-22 20:24:45.132] [exthost] [error] Canceled: Canceled
+	at b.makeCancelError (/usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:458291)
+	at b.handleFailedRequest (/usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:458142)
+	at /usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:469344
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async X.provideColors (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:186384)
