@@ -4,8 +4,7 @@
 # Whitelist
 !.gitignore
 
-!.config/
-.config/1Password/*
+# !.config/
 !.scripts/
 !.bashrc
 !.bash_profile

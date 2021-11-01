@@ -1,5 +1,0 @@
-{
-  "ui.routes.lastUsedRoute": "{\"type\":\"ItemDetail\",\"content\":{\"itemListRoute\":{\"unlockedRoute\":{\"collectionUuid\":\"JOFIM77S3VEQVIIIYKKGQUQ35M\"},\"itemListType\":{\"type\":\"Vault\",\"content\":\"19\"},\"category\":null,\"sortBehavior\":null},\"itemId\":\"49\"}}",
-  "security.authenticatedUnlock.enabled": true,
-  "app.keepInTray": true
-}

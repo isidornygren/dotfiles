@@ -1,7 +1,0 @@
-[2021-10-31 15:02:32.433] [renderer1] [info] Starting extension host with pid 20067.
-[2021-10-31 15:02:32.834] [renderer1] [error] [Extension Host] (node:20067) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `codium --trace-deprecation ...` to show where the warning was created)
-[2021-10-31 15:02:45.852] [renderer1] [info] Starting extension host with pid 20136.
-[2021-10-31 15:02:46.331] [renderer1] [error] [Extension Host] (node:20136) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `codium --trace-deprecation ...` to show where the warning was created)
-[2021-10-31 15:02:46.497] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/home/isidor/Projects/ts-test/example/node_modules/my-test-package" points to "/home/isidor/Projects/ts-test"
