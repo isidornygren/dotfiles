@@ -1,3 +1,6 @@
+export FCEDIT=nvim
+# export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/amd_icd64.json
+export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/radeon_icd.x86_64.json
 
 source /usr/share/nvm/init-nvm.sh
 

@@ -4,8 +4,15 @@
 # Whitelist
 !.gitignore
 
-# !.config/
+!.config/
 !.scripts/
 !.bashrc
 !.bash_profile
 !.vimrc
+
+# Configs
+.config/*
+!.config/i3/
+!.config/i3blocks/
+!.config/i3status/
+!.config/nvim/
