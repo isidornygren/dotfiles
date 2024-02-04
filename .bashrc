@@ -9,4 +9,5 @@ export PS1="\[\033[38;5;12m\]\u\[\033[0;10m\]@\[\033[38;5;10m\]\h\[\033[38;5;11m
 export EDITOR="vim"
 
 alias ls="ls --color=auto"
+alias ll="ls -al"
 alias grep="grep --color=auto"
