@@ -34,6 +34,9 @@ set wildmenu
 set laststatus=2
 set statusline=%f
 
+" Make comments bold so that they stand out more
+highlight Comment cterm=bold
+
 "split navigations
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
